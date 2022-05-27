@@ -1,0 +1,22 @@
+#login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 3px;
+}
+
+#login-form > legend {
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--bs-gray-200);
+    color: var(--bs-dark);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#login-form > .input-group {
+    margin-bottom: 18px;
+}
